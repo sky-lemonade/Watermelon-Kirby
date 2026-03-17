@@ -1,0 +1,1155 @@
+#outer {
+  background: #234219;
+}
+
+#main {
+  color: #F2FFDC;
+}
+
+#main a {
+  color: #F2FFDC;
+}
+
+#main a:hover {
+  color: #F2FFDC;
+}
+
+#main,
+#inner.wrapper,
+.listbox .index,
+.work.own,
+.thread .even {
+  background: #234219;
+}
+
+#header .heading {
+  height: 12em;
+}
+
+#header .primary {
+  background: rgba(39,67,26,.4);
+  box-shadow: none;
+}
+
+#greeting .menu {
+  width: 12em !important;
+}
+
+#header .menu {
+  width: 20em;
+}
+
+#header .menu {
+  width: 20em;
+}
+
+#header #search .button,
+#header #search .submit {
+  display: none;
+}
+
+#header #search .text {
+  background: #f5f5f5;
+  color: #F2FFDC;
+  width: 10em;
+  border: #27431a;
+}
+
+form.search input[type="text"] {
+  box-shadow: none;
+}
+
+#header .logo,
+#header .heading sup,
+#header h1.heading span {
+  display: none;
+}
+
+#header {
+  background: url("https://64.media.tumblr.com/4c4aeb8c5b0bf1ca7008ccdf498acd55/80f0bc5c4e781456-c8/s1280x1920/a8dce34b369ad721ff597314ce4f5482780cdee8.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#header h1.heading a::before {
+  content: "ᴀʀᴄʜɪᴠᴇ ᴏꜰ ᴏᴜʀ ᴏᴡɴ";
+  color: #F2FFDC;
+  font-size: 80%;
+}
+
+#inner {
+  background-image: url("https://64.media.tumblr.com/bf633d2194a01b3fb480a4d7baa63ccf/4cbe833f11ed943f-2e/s540x810/ae48ca9a122d03daac67a697a1f34b07afccb2b2.png"),
+    url("https://64.media.tumblr.com/bf633d2194a01b3fb480a4d7baa63ccf/4cbe833f11ed943f-2e/s540x810/ae48ca9a122d03daac67a697a1f34b07afccb2b2.png");
+  background-position: left top, right top;
+  background-repeat: repeat-y, repeat-y;
+  background-size: 3%, 3%;
+}
+
+#header #greeting {
+  text-align: right !important;
+}
+
+#header #greeting > ul {
+  display: flex !important;
+  justify-content: flex-end !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#header #greeting > ul > li {
+  float: none !important;
+  margin: 0 0 0 0.55em !important;
+  padding: 0 !important;
+}
+
+#header #greeting .dropdown > a[href*="/users/"],
+#header #greeting .dropdown > a[href*="/works/new"],
+#header #greeting > ul > li > a[href*="/users/logout"] {
+  position: relative !important;
+  font-size: 0 !important;
+  color: transparent !important;
+  display: inline-block !important;
+  width: 22px !important;
+  height: 22px !important;
+  padding: 0 !important;
+  line-height: 0 !important;
+  vertical-align: middle !important;
+}
+
+#header #greeting .dropdown > a[href*="/users/"],
+#header #greeting .dropdown > a[href*="/works/new"],
+#header #greeting > ul > li > a[href*="/users/logout"] {
+  filter: none !important;
+  -webkit-filter: none !important;
+  background: transparent !important;
+}
+
+#header #greeting .dropdown > a[href*="/users/"]::before,
+#header #greeting .dropdown > a[href*="/works/new"]::before,
+#header #greeting > ul > li > a[href*="/users/logout"]::before {
+  content: "" !important;
+  position: absolute !important;
+  left: 0 !important;
+  top: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+}
+
+#header #greeting .dropdown > a[href*="/users/"]::before {
+  background-image: url("https://64.media.tumblr.com/39eb312ca5ee3f36e4fcfc01d7853d08/e4c62cd8b2f7b1ce-10/s250x400/583ca609771825ef83ebd2a44df4517e5a95d01b.png") !important;
+}
+
+#header #greeting .dropdown > a[href*="/works/new"]::before {
+  background-image: url("https://64.media.tumblr.com/ecec6a7816344c208805ff59f4941e27/d59627cb27fabf06-8f/s250x400/a02ee65cd86db741022cf4402fd6e862372a1ec9.png") !important;
+}
+
+#header #greeting > ul > li > a[href*="/users/logout"]::before {
+  background-image: url("https://64.media.tumblr.com/1beae795bf6fc86c9b543cf680c69e9b/d59627cb27fabf06-2a/s250x400/f6554b10683e44ed1c7ea8d98137bdde0a79f28e.png") !important;
+}
+
+#header #greeting .menu a {
+  font-size: inherit !important;
+  color: inherit !important;
+}
+
+button,
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+#main .actions a,
+#main .action,
+.actions a:visited,
+#header #search .button,
+li.chapter-index a,
+li.download a,
+div.download a,
+.splash .favorite li a,
+.resp-sharing-button--bluesky,
+.resp-sharing-button--tumblr,
+.dropdown-toggle,
+.unread,
+.read,
+.replied,
+#greeting .user > li > a,
+#greeting .user > li > form.button_to input,
+#greeting .user > li > form.button_to button {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  padding: 0 0 2px 0 !important;
+  margin: 0 0.15em !important;
+  font-family: "Garamond", "Baskerville", "Georgia", "Times New Roman", serif !important;
+  font-size: 0.85em !important;
+  letter-spacing: 0.08em !important;
+  font-variant: small-caps;
+  text-transform: none !important;
+  color: #F2FFDC !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+}
+
+.actions a:active,
+.current,
+a.current,
+a:link.current,
+.current a:visited {
+  color: #F2FFDC;
+  background: #4f853b;
+  border-color: #4f853b;
+  box-shadow: none;
+}
+
+#footer {
+  background-color: transparent;
+  background-image: url("https://64.media.tumblr.com/61387e5edb495f95a08ed0904df04375/60ee94584501d11c-63/s2048x3072/50b07838298213e02ea4236a549401fe7e2144da.png"),
+    linear-gradient(to bottom, transparent 100px, #4f853b 100px, #4f853b 100%);
+  background-position: top center, top center;
+  background-size: auto 100px, 100% 100%;
+  background-repeat: repeat-x, no-repeat;
+  border-top: none;
+  padding-top: 130px;
+}
+
+#footer .heading,
+#footer li,
+#footer li a,
+#footer button {
+  font-variant: small-caps;
+  text-decoration: none;
+  background: transparent !important;
+  border: none !important;
+  color: #F2FFDC !important;
+}
+
+.splash .news blockquote p:first-child {
+  padding-left: 105px;
+  background: url("https://64.media.tumblr.com/91ddb876dafba4afc35b98312247ea47/e90cf371051beb5f-d6/s1280x1920/1dbce0baa5caa355bff4a1d3cbbb88b11cc91828.png");
+  background-size: 100px 80px;
+  background-position-x: left;
+  background-position-y: top;
+  background-repeat: no-repeat;
+}
+
+.social.module p {
+  padding-left: 85px;
+  background: url("https://64.media.tumblr.com/265b2d9f27577c1f68a8ec59732320e2/2278f4edb64c5e11-f7/s1280x1920/dfc151aaa1b28d33dc4fc26c5e33071979472363.png");
+  background-size: 75px 68px;
+  background-position-x: left;
+  background-position-y: top;
+  background-repeat: no-repeat;
+}
+
+.profile-show.dashboard.region dl.meta {
+  border: none;
+  box-shadow: none;
+  background: url("https://64.media.tumblr.com/7fc1ecbed75cdb977cb4b46ab7c2823a/694a6bca8e02a304-de/s1280x1920/77296b567632a38dde9db1a984ce00c94e3f0657.jpg");
+  background-position-x: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.favorite.module.odd {
+  background: url("https://64.media.tumblr.com/13959f3bc3b25f110231bb05ad65fa75/694a6bca8e02a304-ca/s1280x1920/d5bfa43043e856c6adcdd9007d70ca502ddfae7d.png");
+  background-position-x: right;
+  background-position-y: center;
+  background-size: 40%;
+  background-repeat: no-repeat;
+}
+
+.splash .favorite:after {
+  content: "𝙵𝚛𝚘𝚖 𝚃𝚑𝚎 𝚁𝚒𝚟𝚎𝚛 𝚝𝚘 𝚃𝚑𝚎 𝚂𝚎𝚊";
+  display: flex;
+  color: #F2FFDC;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold !important;
+  font-size: 90%;
+}
+
+.splash .favorite li:nth-of-type(odd) a {
+  background: none;
+}
+
+.home .primary.header.module {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  text-align: center !important;
+  margin: 20px auto !important;
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+.home .primary.header.module .icon {
+  order: 1 !important;
+  float: none !important;
+  margin: 0 auto 15px auto !important;
+  position: relative !important;
+  background: transparent !important;
+  width: auto !important;
+  height: auto !important;
+}
+
+.home .primary.header.module .icon img {
+  width: 100px !important;
+  height: 100px !important;
+  border-radius: 50% !important;
+  margin: 0 !important;
+}
+
+.home .primary.header.module .icon::before {
+  display: none !important;
+}
+
+.home .primary.header.module h2.heading {
+  order: 2 !important;
+  float: none !important;
+  width: 100% !important;
+  display: block !important;
+  margin: 0 0 10px 0 !important;
+  text-align: center !important;
+  border: none !important;
+  font-size: 1.5rem !important;
+}
+
+.home .primary.header.module ul.actions {
+  order: 3 !important;
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  flex-wrap: wrap !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.home .primary.header.module ul.actions li {
+  margin: 0 5px !important;
+  display: inline-block !important;
+}
+
+html body .home .primary.header.module .icon a::after {
+  content: "" !important;
+  position: absolute !important;
+  left: 47% !important;
+  top: -28px !important;
+  width: 150px !important;
+  height: 150px !important;
+  margin-left: -75px !important;
+  background-image: url("https://64.media.tumblr.com/e1cdece7646f26202551a877476cae67/683839111a2e9793-90/s540x810/5b117b2df12d4e60d2477e4e9cc3269fcc908499.png") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+  filter: none !important;
+  -webkit-filter: none !important;
+  z-index: 2 !important;
+}
+
+.comment .icon .visitor {
+  background: url("https://64.media.tumblr.com/97200e398d94ed15b9a73dcfc4153f69/b70e1dff7e165e70-39/s640x960/213085f26b8bcd7c4df6530bb9d0aaec7f044229.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.comment .userstuff {
+  padding-right: 60px;
+  padding-bottom: 70px;
+  background: url("https://64.media.tumblr.com/67175881338de258ab198423142e473a/d24d65406d4ef817-2f/s500x750/04cbb91e649a973034f8be24bc44015940137d9d.png");
+  background-position-x: right;
+  background-position-y: top;
+  background-repeat: no-repeat;
+  background-size: 64px 90px;
+}
+
+p.kudos {
+  padding-left: 8.3em;
+  background: url("https://64.media.tumblr.com/15f43b0846f03e8e0c0cddd4ef2bc765/683839111a2e9793-6b/s640x960/8e4777aaebba928d64db01b30755c54ac224656b.png");
+  background-size: 95px 80px;
+  background-repeat: no-repeat;
+  min-height: 112px;
+}
+
+html body img[src$="/images/lockblue.png"] {
+  content: url("https://64.media.tumblr.com/0faf0da7a852b71303c77651354db61d/e90cf371051beb5f-a9/s640x960/d74e0db32b209c8d1cb99ec6b2a773bdf2ccf3ee.png") !important;
+  height: 20px !important;
+  width: auto !important;
+  filter: none !important;
+  -webkit-filter: none !important;
+  vertical-align: middle !important;
+}
+
+ul.required-tags,
+.bookmark .status span,
+.blurb .icon {
+  opacity: 1 !important;
+}
+
+img[src$="/images/skins/iconsets/default/icon_collection.png"] {
+  box-sizing: border-box;
+  border: 1.5px solid #00000025;
+  background: linear-gradient(transparent, #ffffff50 45% 55%, transparent), 
+    #616c90 border-box;
+  content: url("https://zerafinacss.github.io/ao3/icons/collection-01.png");
+}
+
+.tagset .primary .icon,
+.tag .primary .icon,
+.index .tagset .icon {
+  box-sizing: border-box;
+  border: 1.5px solid #00000025;
+  background: url("https://zerafinacss.github.io/ao3/icons/tag-01.png"), 
+    linear-gradient(transparent, #ffffff50 45% 55%, transparent), 
+    #900 border-box;
+  background-size: cover;
+}
+
+.index .mystery .icon {
+  box-sizing: border-box;
+  border: 1.5px solid #ddd;
+  box-shadow: inset 0 0 0 3px #fff;
+  background: url("https://zerafinacss.github.io/ao3/icons/anon-01.png"), 
+    linear-gradient(transparent, #ffffff50 45% 55%, transparent) 
+    #616c90 content-box;
+  background-size: cover;
+}
+
+.admin .primary .icon {
+  box-sizing: border-box;
+  border: 1.5px solid #00000099;
+  background: url("https://zerafinacss.github.io/ao3/icons/admin-01.png") 
+    no-repeat,
+    linear-gradient(#ffffff40, transparent) 
+    #900 border-box;
+  background-size: cover;
+}
+
+.skins .primary .icon:not(:has(a .icon)),
+.index .skins .icon:not(:has(a .icon)) {
+  box-sizing: border-box;
+  border: 1.5px solid #ddd;
+  background: url("https://zerafinacss.github.io/ao3/icons/skins-01.png"), 
+    #900 border-box;
+  background-size: cover;
+}
+
+#symbols-key dl img,
+#bookmark-symbols-key img {
+  width: 0 !important;
+  height: 0 !important;
+  padding: 25px 0 0 25px;
+}
+
+.blurb ul.required-tags li a > span,
+.bookmark p.status a > span,
+#symbols-key dl img,
+#bookmark-symbols-key img {
+  box-sizing: border-box;
+  border: 1px solid;
+  background-size: cover;
+  background-origin: border-box;
+}
+
+.required-tags .rating-notrated,
+.required-tags .category-none,
+.required-tags .warning-no,
+.status .count,
+img[src$="/images/skins/iconsets/default/rating-notrated.png"],
+img[src$="/images/skins/iconsets/default/category-none.png"],
+img[src$="/images/skins/iconsets/default/warning-no.png"] {
+  color: #00000040;
+  background: #ffffffcc;
+}
+
+.required-tags .rating-general-audience,
+img[src$="/images/skins/iconsets/default/rating-general-audience.png"] {
+  color: #0000001a;
+  background: url("https://zerafinacss.github.io/ao3/icons/rating-gen-01.png"), 
+    #8bc101;
+}
+
+.required-tags .rating-teen,
+img[src$="/images/skins/iconsets/default/rating-teen.png"] {
+  color: #0000001a;
+  background: url("https://zerafinacss.github.io/ao3/icons/rating-teen-01.png"), 
+    #f5ce00;
+}
+
+.required-tags .rating-mature,
+img[src$="/images/skins/iconsets/default/rating-mature.png"] {
+  color: #0000001a;
+  background: url("https://zerafinacss.github.io/ao3/icons/rating-mature-01.png"), 
+    #ef851c;
+}
+
+.required-tags .rating-explicit,
+img[src$="/images/skins/iconsets/default/rating-explicit.png"] {
+  color: #0000001a;
+  background: url("https://zerafinacss.github.io/ao3/icons/rating-explicit-01.png"), 
+    #b0021f;
+}
+
+.required-tags .category-femslash,
+img[src$="/images/skins/iconsets/default/category-femslash.png"] {
+  color: #0000001a;
+  background: url("https://zerafinacss.github.io/ao3/icons/category-ff-01.png"), 
+    #b0021f;
+}
+
+.required-tags .category-het,
+img[src$="/images/skins/iconsets/default/category-het.png"] {
+  color: #0000001a;
+  background: url("https://zerafinacss.github.io/ao3/icons/category-mf-01.png"), 
+    #910679;
+}
+
+.required-tags .category-gen,
+img[src$="/images/skins/iconsets/default/category-gen.png"] {
+  color: #0000001a;
+  background: url("https://zerafinacss.github.io/ao3/icons/category-gen-01.png"), 
+    #8bc101;
+}
+
+.required-tags .category-slash,
+img[src$="/images/skins/iconsets/default/category-slash.png"] {
+  color: #0000001a;
+  background: url("https://zerafinacss.github.io/ao3/icons/category-mm-01.png"), 
+    #0054d4;
+}
+
+.required-tags .category-multi,
+img[src$="/images/skins/iconsets/default/category-multi.png"] {
+  color: #0000001a;
+  background: conic-gradient(from 270deg, #8bc101 25%, #910679 25% 50%, #0054d4 50% 75%, #b0021f 75%);
+}
+
+.required-tags .category-other,
+img[src$="/images/skins/iconsets/default/category-other.png"] {
+  color: #0000001a;
+  background: url("https://zerafinacss.github.io/ao3/icons/category-other-01.png"), 
+    #000;
+}
+
+.required-tags .warning-choosenotto,
+img[src$="/images/skins/iconsets/default/warning-choosenotto.png"] {
+  color: #0000001a;
+  background: url("https://zerafinacss.github.io/ao3/icons/warning-choosenotto-01.png"), 
+    #ef851c;
+}
+
+.required-tags .warning-yes,
+img[src$="/images/skins/iconsets/default/warning-yes.png"] {
+  color: #0000001a;
+  background: url("https://zerafinacss.github.io/ao3/icons/warning-yes-01.png"), 
+    #b0021f;
+}
+
+.required-tags .external-work,
+img[src$="/images/skins/iconsets/default/warning-external-work.png"] {
+  color: #0000001a;
+  background: url("https://zerafinacss.github.io/ao3/icons/warning-external-work-01.png"), 
+    #107cb9;
+}
+
+.required-tags .complete-no,
+img[src$="/images/skins/iconsets/default/complete-no.png"] {
+  color: #0000001a;
+  background: url("https://zerafinacss.github.io/ao3/icons/complete-no-01.png"), 
+    #b0021f;
+}
+
+.required-tags .complete-yes,
+img[src$="/images/skins/iconsets/default/complete-yes.png"] {
+  color: #0000001a;
+  background: url("https://zerafinacss.github.io/ao3/icons/complete-yes-01.png"), 
+    #8bc101;
+}
+
+.status .rec,
+img[src$="/images/skins/iconsets/default/bookmark-rec.png"] {
+  color: #0000001a;
+  background: url("https://zerafinacss.github.io/ao3/icons/bookmark-rec-01.png"), 
+    #107cb9;
+}
+
+.status .public,
+img[src$="/images/skins/iconsets/default/bookmark-public.png"] {
+  color: #0000001a;
+  background: url("https://zerafinacss.github.io/ao3/icons/bookmark-public-01.png"), 
+    #107cb9;
+}
+
+.status .private,
+img[src$="/images/skins/iconsets/default/bookmark-private.png"] {
+  color: #0000001a;
+  background: url("https://zerafinacss.github.io/ao3/icons/bookmark-locked-01.png"), 
+    #000;
+  font-size: 0;
+}
+
+.status .private .text {
+  background: none;
+}
+
+.status .hidden,
+img[src$="/images/skins/iconsets/default/bookmark-hidden.png"] {
+  color: #0000001a;
+  background: url("https://zerafinacss.github.io/ao3/icons/bookmark-locked-01.png"), 
+    #b0021f;
+}
+
+a.rss span {
+  padding: 0;
+  background: none;
+}
+
+.actions li a.rss {
+  display: inline-flex;
+  align-content: center;
+  align-items: center;
+  column-gap: 0.3em;
+}
+
+.actions li a.rss::before {
+  box-sizing: border-box;
+  width: 0.85em;
+  height: 0.85em;
+  border: 1px solid var(--icon-border1);
+  border-radius: 2px;
+  background: url("https://zerafinacss.github.io/ao3/icons/rss-01.png") 
+     #ef851c;
+  background-size: cover;
+  content: "";
+}
+
+.system .latest h3,
+.splash .module h3,
+.system .tweets h3 {
+  color: #F2FFDC;
+}
+
+.blurb h4 a:link,
+#footer h4 {
+  color: #F2FFDC;
+}
+
+.splash .favorite li:nth-of-type(odd) a:hover,
+.splash .favorite li:nth-of-type(odd) a:focus,
+a.tag:hover,
+a.tag:focus,
+#dashboard a:hover,
+#dashboard a:focus,
+#dashboard .current,
+#header .dropdown .menu a:hover,
+#header .dropdown .menu a:focus {
+  background: #D9592B;
+  color: #F2FFDC;
+  font-weight: bold;
+}
+
+#dashboard.own {
+  position: relative;
+  box-sizing: border-box;
+  max-width: 700px;
+  margin: 1.5em auto 1em auto;
+  padding: 10px 14px !important;
+  border: none !important;
+  border-radius: 14px;
+  background-color: #4f853b;
+  overflow: hidden;
+  color: #F2FFDC !important;
+  font-size: 0.9em !important;
+  line-height: 1.5;
+  text-align: center;
+  z-index: 0;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.04),
+              0 2px  4px rgba(0, 0, 0, 0.05) !important;
+}
+
+#dashboard ul {
+  background: transparent;
+  border: none;
+}
+
+#dashboard .secondary {
+  background-color: #234219;
+  box-shadow: none;
+}
+
+#dashboard:not(.own) {
+  background: #4f853b !important;
+  border: none !important;
+  border-radius: 10px !important;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.04),
+              0 2px  4px rgba(0, 0, 0, 0.05) !important;
+  padding: 0.4em 0.8em 0.35em 0.8em !important;
+  margin: 0 0 14px 0 !important;
+  font-size: 0.78em !important;
+}
+
+#dashboard:not(.own) ul.primary,
+#dashboard:not(.own) ul.secondary {
+  margin: 0 !important;
+  padding: 0.15em 0 0.1em 0 !important;
+  list-style: none !important;
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+}
+
+#dashboard:not(.own) ul.primary li,
+#dashboard:not(.own) ul.secondary li {
+  margin: 0 0.7em 0.25em 0.7em !important;
+  padding: 0 !important;
+}
+
+#dashboard:not(.own) ul.primary li a,
+#dashboard:not(.own) ul.secondary li a {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  display: inline-block !important;
+  padding: 0 0.25em 2px 0.25em !important;
+  margin: 0 !important;
+  font-family: "Garamond", "Baskerville", "Georgia", "Times New Roman", serif !important;
+  font-size: 1em !important;
+  font-variant: small-caps;
+  letter-spacing: 0.08em !important;
+  text-transform: none !important;
+  color: #F2FFDC !important;
+  text-decoration: none !important;
+}
+
+#dashboard:not(.own) ul.primary li a:hover,
+#dashboard:not(.own) ul.primary li a:focus,
+#dashboard:not(.own) ul.secondary li a:hover,
+#dashboard:not(.own) ul.secondary li a:focus,
+#dashboard:not(.own) ul.primary li.current a,
+#dashboard:not(.own) ul.secondary li.current a {
+  color: #F2FFDC !important;
+  border-bottom: 1px solid #78a063 !important;
+}
+
+#dashboard:not(.own) .current {
+  background: transparent !important;
+  border: none !important;
+}
+
+#header .actions a:hover,
+#header .actions a:focus,
+#header .dropdown:hover a,
+#header .open a,
+#header .dropdown .menu a,
+#header .dropdown .menu,
+#greeting .dropdown .menu,
+#greeting .dropdown .menu a {
+  background: #D9592B;
+  color: #000000;
+  font-weight: bold !important;
+}
+
+fieldset {
+  background-image: url("https://64.media.tumblr.com/eb0e72f99e5999822cc7f511ed838da1/d59627cb27fabf06-65/s1280x1920/b948fc4d70e9106710cb566cdfed7766b3e7a9a3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+  border: 1px solid #234219;
+  box-shadow: inset 0 0 10px rgba(230, 210, 100, 0.7);
+  color: #F2FFDC;
+  padding: 1em;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.splash .module h3,
+.splash .news li,
+.home .header h2,
+li.comment,
+dl.meta,
+.bookmark .user,
+#header .menu li,
+#dashboard ul,
+#dashboard .secondary,
+ul.notes,
+.flash,
+.notice,
+tbody tr,
+thead td,
+#header #small_login,
+fieldset,
+form dl,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff,
+form dt,
+.actions a:active,
+.current,
+a.current,
+.current a:visited,
+.search span.tip,
+.listbox,
+fieldset fieldset.listbox {
+  border-color: #93A664;
+}
+
+.comment div.icon {
+  border-bottom: 5px solid #cad588;
+  border-right: 1px solid #cad588;
+}
+
+.flash,
+.notice {
+  background-color: #DE5A2B;
+  border-color: #93A664;
+  color: #F2FFDC;
+}
+
+.alert.flash,
+.error,
+.comment_error,
+.kudos_error {
+  background: #DE5A2B;
+  color: #F2FFDC;
+  border-color: #93A664;
+}
+
+form .notice,
+ul.notes,
+.caution {
+  background-color: #DE5A2B;
+  border-color: #93A664;
+  box-shadow: none;
+}
+
+span.question {
+  background: #f5f5f5;
+  color: #B03111;
+  font-weight: normal;
+  border: 2px solid #B03111;
+  box-shadow: none;
+}
+
+h2 {
+  font-size: 1.286em;
+  line-height: 1;
+  margin: 0.5375em 0;
+}
+
+.listbox,
+.bookmark .user,
+.bookmark .user .header,
+.reading h4.viewed,
+li.relationships a,
+.dropdown,
+fieldset fieldset.listbox,
+fieldset,
+form dl,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff,
+.dynamic form fieldset,
+.toggled form fieldset,
+.toggled form dl,
+.secondary .toggled form,
+.secondary form,
+.required .autocomplete {
+  background-color: #f5f5f5;
+  color: #F9D1CF;
+  border-color: #93A664;
+}
+
+.bookmark .user {
+  border-radius: 5px;
+}
+
+.filters .submit input {
+  color: #000;
+  background: #7ab23d;
+  border: 1px solid #E6EDB5;
+  border-radius: 10px;
+  box-shadow: 0 0 4px #749140;
+}
+
+.filters fieldset {
+  border-radius: 20px;
+}
+
+textarea,
+input,
+select,
+option,
+.toggled form,
+.dynamic form,
+.autocomplete .dropdown ul,
+.autocomplete .dropdown ul li,
+.autocomplete input {
+  background-color: #f5f5f5;
+}
+
+li.blurb,
+.listbox li.blurb {
+  border: 4px solid #cde091;
+  border-radius: 20px;
+  box-shadow: none;
+}
+
+.blurb .header {
+  border-bottom: 2px solid #cde091;
+}
+
+.bookmark .user .module {
+  border: none;
+}
+
+.reading h4.viewed,
+.bookmark .user {
+  box-shadow: none;
+}
+
+.reading h4.viewed {
+  border: 1px dashed #3b4a24;
+}
+
+.workskin .notes,
+dl.meta,
+.reading h4.viewed,
+.bookmark .user,
+.comment .posted,
+.comment .edited {
+  font-size: 90%;
+}
+
+#workskin {
+  text-align: justify;
+}
+
+#workskin h2 {
+  font-size: 2.7em;
+  color: #F2FFDC;
+}
+
+ul.tags li.warnings,
+ul.tags li.relationships,
+ul.tags li.characters,
+ul.tags li.freeforms {
+  float: left;
+  margin: 0;
+  padding: 2px;
+}
+
+li.warnings + li.relationships,
+li.relationships + li.characters,
+li.characters + li.freeforms,
+li.warnings + li.characters,
+li.warnings + li.freeforms,
+li.relationships + li.freeforms {
+  clear: left;
+}
+
+.warnings .tag {
+  background: #D9592B;
+  color: #F2FFDC !important;
+  border: 1px solid #D9592B;
+}
+
+body,
+.secondary,
+.dropdown {
+  background: #D9592B;
+  color: #234219;
+  border: #749140;
+  box-shadow: none;
+}
+
+p.footnote a {
+  color: #D9592B !important;
+}
+
+.users-show.dashboard.region .listbox,
+.listbox {
+  background: url("https://64.media.tumblr.com/73d052060358e2eb156bc8287ebbed5b/15c97744e3181b26-fb/s540x810/9b86e857d61e6076aa1fcca2e97c7c184df67eae.jpg");
+  background-repeat: repeat;
+  box-shadow: none;
+}
+
+.dashboard .own {
+  color: #F2FFDC;
+  border: #D9592B;
+  background: #234219;
+}
+
+#main .filters dt,
+#main .filters dt button,
+#main .filters dt span,
+#main .filters label,
+#main .filters dd {
+  background: #234219 !important;
+  color: #F2FFDC !important;
+  border: transparent !important;
+  box-shadow: none;
+}
+
+a.tag,
+a.tag:visited,
+a.tag:link {
+  display: inline-block;
+  padding: 2px 3px;
+  margin: 2px 0px;
+  border-radius: 1px;
+}
+
+.commas li:after {
+  content: "";
+}
+
+.relationships .tag {
+  background: #4f853b;
+  color: #F2FFDC !important;
+  border: 1px solid #234219;
+}
+
+.characters .tag {
+  background: #234219;
+  color: #F2FFDC !important;
+  border: 1px solid #4f853b;
+}
+
+.freeforms .tag {
+  background: #234219;
+  color: #F2FFDC !important;
+  border: 1px solid #234219;
+}
+
+li.characters + li.freeforms:before {
+  content: "🍉";
+}
+
+li.relationships + li.freeforms:before {
+  content: "🍉";
+}
+
+li.warnings + li.freeforms:before {
+  content: "🍉";
+}
+
+.draft,
+.draft .wrapper {
+  background: transparent;
+}
+
+table,
+.child {
+  background: transparent;
+}
+
+form.verbose legend,
+.verbose form legend {
+  background: #F4624B;
+  border: 1px solid #A8C166;
+  box-shadow: none;
+}
+
+#main .filters div.autocomplete {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.comment h4.byline {
+  background: #092400;
+}
+
+#main .filters form,
+#main .filters .required,
+#main .filters .autocomplete,
+#main .filters .autocomplete ul,
+#main .filters .autocomplete li,
+#main .filters .dropdown,
+#main .filters .listbox {
+  background: transparent !important;
+  box-shadow: none !important;
+  color: #F2FFDC !important;
+}
+
+#main .filters fieldset {
+  padding: 12px !important;
+}
+
+#main .filters dl {
+  background: #234219 !important;
+  padding: 10px !important;
+  border-radius: 8px !important;
+  margin: 0 !important;
+}
+
+#main .filters dt,
+#main .filters dt button,
+#main .filters dt span,
+#main .filters label,
+#main .filters dd {
+  background: transparent !important;
+  border: none !important;
+  margin: 0 !important;
+}
+
+#main .filters input:not([type="submit"]):not([type="button"]):not([type="reset"]),
+#main .filters textarea,
+#main .filters select,
+#main .filters option,
+#main .filters .autocomplete input {
+  background: rgba(35, 66, 25, 0.8) !important;
+  color: #F2FFDC !important;
+  border: 1px solid #b8b08a !important;
+  box-shadow: none !important;
+  outline: none !important;
+  border-radius: 3px !important;
+  -webkit-appearance: none !important;
+  appearance: none !important;
+}
+
+#main .filters input:focus,
+#main .filters textarea:focus,
+#main .filters select:focus,
+#main .filters .autocomplete input:focus {
+  background: #234219 !important;
+  color: #F2FFDC !important;
+  border-color: #d7cf9d !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+#main .filters input:-webkit-autofill,
+#main .filters input:-webkit-autofill:hover,
+#main .filters input:-webkit-autofill:focus,
+#main .filters textarea:-webkit-autofill,
+#main .filters select:-webkit-autofill {
+  -webkit-text-fill-color: #F2FFDC !important;
+  -webkit-box-shadow: 0 0 0 1000px #234219 inset !important;
+}
+
+#main .filters .autocomplete:empty,
+#main .filters .autocomplete ul:empty {
+  display: none !important;
+}
+
+#main .reading h4.viewed {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: #F2FFDC !important;
+}
+
+.search [role="tooltip"] {
+  display: none;
+}
