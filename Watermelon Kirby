@@ -844,7 +844,6 @@ h2 {
   margin: 0.5375em 0;
 }
 
-.listbox,
 .bookmark .user,
 .bookmark .user .header,
 .reading h4.viewed,
