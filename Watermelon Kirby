@@ -78,14 +78,6 @@ form.search input[type="text"] {
   font-size: 80%;
 }
 
-#inner {
-  background-image: url("https://64.media.tumblr.com/bf633d2194a01b3fb480a4d7baa63ccf/4cbe833f11ed943f-2e/s540x810/ae48ca9a122d03daac67a697a1f34b07afccb2b2.png"),
-    url("https://64.media.tumblr.com/bf633d2194a01b3fb480a4d7baa63ccf/4cbe833f11ed943f-2e/s540x810/ae48ca9a122d03daac67a697a1f34b07afccb2b2.png");
-  background-position: left top, right top;
-  background-repeat: repeat-y, repeat-y;
-  background-size: 3%, 3%;
-}
-
 #header #greeting {
   text-align: right !important;
 }
