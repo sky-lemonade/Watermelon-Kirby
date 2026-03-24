@@ -1144,3 +1144,8 @@ form.verbose legend,
 .search [role="tooltip"] {
   display: none;
 }
+
+li.previous span.disabled,
+li.next span.disabled {
+  display: none;
+}
