@@ -1145,6 +1145,14 @@ form.verbose legend,
   display: none;
 }
 
+form dt,
+form dd,
+form label,
+.character_counter,
+p.character_counter {
+  color: #234219 !important;
+}
+
 li.previous span.disabled,
 li.next span.disabled {
   display: none;
