@@ -1141,6 +1141,12 @@ form.verbose legend,
   color: #F2FFDC !important;
 }
 
+div.comment,
+li.comment {
+  background: none;
+  border: none;
+}
+
 .search [role="tooltip"] {
   display: none;
 }
