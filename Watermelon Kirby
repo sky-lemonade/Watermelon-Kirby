@@ -674,6 +674,11 @@ a.tag:focus,
   box-shadow: none;
 }
 
+#dashboard a {
+  color: #F2FFDC;
+  border: 1px solid transparent;
+}
+
 #dashboard:not(.own) {
   background: #4f853b !important;
   border: none !important;
