@@ -1167,3 +1167,25 @@ li.previous span.disabled,
 li.next span.disabled {
   display: none;
 }
+
+#main .navigation a.current::before,
+ul.navigation li.current a::before,
+.actions a.current::before,
+a.current::before,
+.current::before {
+  content: "𓂆 " !important;
+  margin-left: 0.2em !important;
+  font-size: 1.1em !important;
+  color: #F2FFDC !important;
+}
+
+#main .navigation a.current::after,
+ul.navigation li.current a::after,
+.actions a.current::after,
+a.current::after,
+.current::after {
+  content: "♡" !important;
+  margin-left: 0.2em !important;
+  font-size: 1.1em !important;
+  color: #F2FFDC !important;
+}
