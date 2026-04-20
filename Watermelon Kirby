@@ -799,8 +799,7 @@ fieldset fieldset.listbox {
 }
 
 .comment div.icon {
-  border-bottom: 5px solid #cad588;
-  border-right: 1px solid #cad588;
+  border-bottom: none !important;
 }
 
 .flash,
